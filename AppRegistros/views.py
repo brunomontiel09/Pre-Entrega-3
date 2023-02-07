@@ -132,6 +132,4 @@ def resultadoBusqueda(request):
      
      else:
           
-          respuesta= "No enviaste datos"
-          
-          return HttpResponse(respuesta)
+          return render(request, "AppRegistro/busquedaCamadaError.html")

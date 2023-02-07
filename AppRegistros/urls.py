@@ -16,6 +16,7 @@ urlpatterns = [
     path('crear_entrega/', crearEntregas, name= "Crear Entrega"),
     
     path('buscarCamada/', busquedaCamada, name= "Buscar Camada"),
+    path('buscarCamada2/', busquedaCamada, name= "Buscar Camada2"),
     path('resultados/', resultadoBusqueda, name= "Resultado Busqueda"),
 
    
