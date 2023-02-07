@@ -51,14 +51,21 @@ copiaremos la siguiente ip: http://127.0.0.1:8000/AppRegistros/ y la pegaremos e
 ![image](https://user-images.githubusercontent.com/124483470/217139691-c7f851fb-34ed-4340-b235-3d061ac5d5eb.png)
 
 
-![image](https://user-images.githubusercontent.com/124483470/217139127-a7b66488-bcfb-4274-b21c-3703120b40eb.png)
-
 se podra visualizar en ella todas las URL's disponibles de la pagina web del proyecto.
 
 Para acceder de forma definitiva a nuestra web tendremos que copiar el siguiente url: http://127.0.0.1:8000/AppRegistros/inicio
 
 ![image](https://user-images.githubusercontent.com/124483470/217139419-1e106604-8a86-4e41-a51d-681df290e36b.png)
 
+Tambien se puede acceder a la base de datos desde la administracion de django con el siguiente url: http://127.0.0.1:8000/admin/
+
+#usuario = usuario
+#contraseña = 12345678
+
+![image](https://user-images.githubusercontent.com/124483470/217140364-851d08ab-ae6a-435f-b5ba-19251785177c.png)
+
+
+4. Autor de este proyecto: Bruno Emanuel, Montiel Alderete
 
 
 
