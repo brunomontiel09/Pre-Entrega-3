@@ -1,0 +1,34 @@
+{% extends "AppRegistro/padre.html" %}
+
+{% block titulo1 %}
+<title>Entregas</title> 
+{% endblock %}
+
+{% block titulo %}
+Aca se puede ver los registros de entregas
+{% endblock %}
+
+{% block formulario %}
+
+<center><table class="table table-striped">
+    <thead class="thead-dark"></thead>
+    <tr>
+      <th style="font-size: 25px; font-family: Sans-Serif;"><center>Nombre</center></th>
+      <th style="font-size: 25px;font-family: Sans-Serif;"><center>Fechas</center></th>
+      <th style="font-size: 25px;font-family: Sans-Serif; "><center>Entregado</center></th>
+    </tr>
+    {% for entrega in lista1 %}
+    <tr>
+      <th><center>{{entrega.nombre}}</center></th>
+      <th><center>{{entrega.fecha}}</center> </th>
+      <th ><center> {{entrega.entregado}}</center></th>
+    </tr> 
+    {% endfor %}
+    </table>
+
+    <nav class="navbar navbar-light bg-light static-top">
+        <div class="container">
+            <a class="btn btn-primary" href="{% url 'Crear Entrega' %}" style="font-size: 15px; font-family: Sans-Serif">Nueva entrega</a>
+        </div>
+    </nav>
+{% endblock %}</center>

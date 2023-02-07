@@ -1,0 +1,34 @@
+{% extends "AppRegistro/padre.html" %}
+
+{% block titulo1 %}
+<title>Cursos</title> 
+{% endblock %}
+
+{% block titulo %}
+Aca se puede ver los cursos disponibles
+{% endblock %}
+
+{% block formulario %}
+
+<center><table class="table table-striped">
+    <thead class="thead-dark"></thead>
+    <tr>
+      <th style="font-size: 25px; font-family: Sans-Serif;"><center>Nombre</center></th>
+      <th style="font-size: 25px;font-family: Sans-Serif;"><center>Camada</center></th>
+      <th style="font-size: 25px;font-family: Sans-Serif; "><center>Numero del Curso</center></th>
+    </tr>
+    {% for cursos in lista1 %}
+    <tr>
+      <th><center>{{cursos.nombre}}</center></th>
+      <th><center> {{cursos.camada}}</center></th>
+      <th><center>{{cursos.curso}}</center> </th>
+    </tr> 
+    {% endfor %}
+    </table>
+
+    <nav class="navbar navbar-light bg-light static-top">
+        <div class="container">
+            <a class="btn btn-primary" href="{% url 'Crear Curso' %}" style="font-size: 15px; font-family: Sans-Serif">Crear nuevo curso</a>
+        </div>
+    </nav>
+{% endblock %}</center>

@@ -1,0 +1,21 @@
+{% extends "AppRegistro/padre.html" %}
+
+{% block titulo1 %}
+<title>Busqueda</title>
+
+{% endblock %}
+
+{% block titulo %}
+Acá podrás buscar camada
+{% endblock %}
+
+ {% block formulario %}
+    <form action="{% url 'Resultado Busqueda' %}" method="GET">
+
+    <center><input type="numer", name="camada", id="camada">
+    <input type="submit" value="Buscar"></center>
+
+    </form>
+
+{% endblock %}
+    

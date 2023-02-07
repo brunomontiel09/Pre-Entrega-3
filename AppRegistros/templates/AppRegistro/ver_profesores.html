@@ -1,0 +1,36 @@
+{% extends "AppRegistro/padre.html" %}
+
+{% block titulo1 %}
+<title>Lista de Profesores</title> 
+{% endblock %}
+
+{% block titulo %}
+Aca se puede ver el listado de profesores
+{% endblock %}
+
+{% block formulario %}
+
+<center><table class="table table-striped">
+    <thead class="thead-dark"></thead>
+    <tr>
+      <th style="font-size: 25px; font-family: Sans-Serif;"><center>Nombre</center></th>
+      <th style="font-size: 25px;font-family: Sans-Serif;"><center>Apellido</center></th>
+      <th style="font-size: 25px;font-family: Sans-Serif;"><center>Email</center></th>
+      <th style="font-size: 25px;font-family: Sans-Serif; "><center>Profesion</center></th>
+    </tr>
+    {% for profe in lista1 %}
+    <tr>
+      <th><center>{{profe.nombre}}</center></th>
+      <th><center>{{profe.apellido}}</center> </th>
+      <th><center> {{profe.email}}</center></th>
+      <th><center>{{profe.profesion}}</center> </th>
+    </tr> 
+    {% endfor %}
+    </table>
+
+    <nav class="navbar navbar-light bg-light static-top">
+        <div class="container">
+            <a class="btn btn-primary" href="{% url 'Crear Profesor' %}" style="font-size: 15px; font-family: Sans-Serif">Ingresar nuevo profesor</a>
+        </div>
+    </nav>
+{% endblock %}</center>

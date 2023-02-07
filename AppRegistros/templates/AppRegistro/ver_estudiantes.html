@@ -1,0 +1,36 @@
+{% extends "AppRegistro/padre.html" %}
+
+{% block titulo1 %}
+<title>Lista de estudiantes</title> 
+{% endblock %}
+
+{% block titulo %}
+Aca se puede ver los estudiantes
+{% endblock %}
+
+{% block formulario %}
+
+<center><table class="table table-striped">
+    <thead class="thead-dark"></thead>
+    <tr>
+      <th style="font-size: 25px; font-family: Sans-Serif;"><center>Nombre</center></th>
+      <th style="font-size: 25px;font-family: Sans-Serif;"><center>Apellido</center></th>
+      <th style="font-size: 25px;font-family: Sans-Serif;"><center>Camada</center></th>
+      <th style="font-size: 25px;font-family: Sans-Serif; "><center>Nacimiento</center></th>
+    </tr>
+    {% for estudiante in lista1 %}
+    <tr>
+      <th><center>{{estudiante.nombre}}</center></th>
+      <th><center>{{estudiante.apellido}}</center> </th>
+      <th><center> {{estudiante.camada}}</center></th>
+      <th><center>{{estudiante.nacimiento}}</center> </th>
+    </tr> 
+    {% endfor %}
+    </table>
+
+    <nav class="navbar navbar-light bg-light static-top">
+        <div class="container">
+            <a class="btn btn-primary" href="{% url 'Crear Estudiante' %}" style="font-size: 15px; font-family: Sans-Serif">Ingresar nuevo estudiante</a>
+        </div>
+    </nav>
+{% endblock %}</center>

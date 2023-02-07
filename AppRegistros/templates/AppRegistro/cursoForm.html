@@ -1,0 +1,21 @@
+{% extends "AppRegistro/padre.html" %}
+
+{% block titulo1 %}
+<title> Crear cursos  </title>
+{% endblock %}
+
+{% block titulo %}
+Acá podrás crear cursos
+{% endblock %}
+
+{% block formulario %}
+    <form action=""    method="POST"> {% csrf_token %}
+
+        <table>
+
+            {{form1.as_p}}
+
+        </table>
+    <input type = "submit" value="Enviar">
+    </form>   
+{% endblock %}

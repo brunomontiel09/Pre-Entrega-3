@@ -1,0 +1,31 @@
+{% extends "AppRegistro/padre.html" %}
+
+{% block titulo1 %}
+<title>ResultadoBusqueda</title> 
+{% endblock %}
+
+{% block titulo %}
+Estamos buscando la camada:{{camada}}
+{% endblock %}
+
+{% block formulario %}
+
+<center><table class="table table-striped">
+    <thead class="thead-dark"></thead>
+    <tr>
+      <th style="font-size: 25px; font-family: Sans-Serif;"><center>Nombre</center></th>
+      <th style="font-size: 25px;font-family: Sans-Serif;"><center>Camada</center></th>
+    </tr>
+    
+    {% for curso in cursos %}
+    <tr>
+      <th><center>{{curso.nombre}}</center></th>
+      <th><center> {{curso.camada}}</center></th>
+    </tr> 
+    {% endfor %}
+    </table>
+
+{% endblock %}</center>
+
+</body>
+</html>
