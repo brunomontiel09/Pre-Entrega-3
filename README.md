@@ -7,16 +7,50 @@
   
 ## 2.Funciones
 
-  2.1 En el apartado de ESTUDIANTES , se podrán ver los estudiantes registrados en la base de datos. Tambien se podra dar alta de nuevos estudiante con las bases nombre, apellido, camada y fecha de nacimiento.
+  2.1 En el apartado de ESTUDIANTES , se podrán ver los estudiantes registrados en la base de datos. 
   
-  2.2 En el apartado de PROFESORES , se podrán ver los profesores registrados en la base de datos. Tambien se podra dar alta a un nuevo profesor con las bases nombre, apellido, email y su profesion.
+  ![image](https://user-images.githubusercontent.com/124483470/217140895-dbcfa6a7-5833-4c44-9eef-e250fd50529c.png)
+
+  Tambien se podra dar alta de nuevos estudiante con las bases nombre, apellido, camada y fecha de nacimiento.
   
-  2.3 En el apartado de CURSOS, se podrán ver los cursos registrados en la base de datos. Tambien se podra crear un nuevos cursos con las bases nombre del curso, numero de la camada y por ultimo ID del curso.
+  ![image](https://user-images.githubusercontent.com/124483470/217141004-65bc369e-bfb4-4dc4-a16e-1b9accbe4e90.png)
+
   
-  2.4 En el apartado de ENTREGAS , se podrán ver las entregas registradas en la base de datos. Tambien se podra registrar una nueva entrega.
+  2.2 En el apartado de PROFESORES , se podrán ver los profesores registrados en la base de datos.
+  
+  ![image](https://user-images.githubusercontent.com/124483470/217141246-17fcc728-4fdf-4bd3-9280-63ba3c6323d2.png)
+
+  Tambien se podra dar alta a un nuevo profesor con las bases nombre, apellido, email y su profesion.
+  
+  ![image](https://user-images.githubusercontent.com/124483470/217141360-c52f2dbd-7cbb-4907-b6da-db812d58071b.png)
+
+  
+  2.3 En el apartado de CURSOS, se podrán ver los cursos registrados en la base de datos.
+  
+  ![image](https://user-images.githubusercontent.com/124483470/217141398-04ddcd8b-0390-4de7-8df9-a846ca6ad97f.png)
+
+  
+  Tambien se podra crear un nuevos cursos con las bases nombre del curso, numero de la camada y por ultimo ID del curso.
+  
+  ![image](https://user-images.githubusercontent.com/124483470/217141430-ee8f73ff-415b-45ae-b582-6cd46f4feb61.png)
+
+  2.4 En el apartado de ENTREGAS , se podrán ver las entregas registradas en la base de datos. 
+  
+  ![image](https://user-images.githubusercontent.com/124483470/217141483-ebf6a3b3-4cc9-4952-8a8b-9c8e09d63cd7.png)
+
+  
+  Tambien se podra registrar una nueva entrega.
+  
+  ![image](https://user-images.githubusercontent.com/124483470/217141499-f78dd6c1-d556-4657-bc46-7260e01e6492.png)
+
   
   2.5 Tambien se podra buscar alguna camada guardada en la base de datos
   
+  ![image](https://user-images.githubusercontent.com/124483470/217141546-12f20f93-21b6-4f9a-bf28-5fdfc190b1f4.png)
+  
+
+  ![image](https://user-images.githubusercontent.com/124483470/217141603-36b4de66-26f0-487a-a0c0-012b3cdff253.png)
+
  ## 3.Como usar
  
  3.1 Primero descargar en formato .zip el repositorio, y extraerlo.
